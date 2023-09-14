@@ -1,0 +1,40 @@
+/* StoredDataList.css */
+
+.stored-data-list {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .toggle-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .toggle-button:hover {
+    background-color: #2a2c2e;
+  }
+  
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .data-table th,
+  .data-table td {
+    border: 1px solid #8e7f7f;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .data-table th {
+    background-color: #b9b6b6;
+  }
+  

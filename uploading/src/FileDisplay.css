@@ -1,0 +1,41 @@
+.file-display-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 5px solid #dfdddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .get-file-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .get-file-button:hover {
+    background-color: #151515;
+  }
+  
+  .file-preview {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
